@@ -25,6 +25,9 @@ export * from './atoms/input/FormInput'
 export * from './atoms/input/FormOption'
 export * from './atoms/modal/Modal'
 export * from './atoms/tooltip/ToolTip'
+export * from './atoms/container/Container'
+export * from './atoms/tabs/Tabs'
+export * from './atoms/panel/Panel'
 
 export * from './molecules/form/Form'
 
