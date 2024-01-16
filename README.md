@@ -79,6 +79,10 @@ Visit http://localhost:6006/ in your browser to see the Storybook.
 | ToolTip               | - `text`: string<br/>- `position`: 'top' | 'right' | 'bottom' | 'left'<br/>- `children`: React.ReactNode |
 | Form                  | (Same as `IForm` defined below) |
 | TableComponent        | (Same as `ITableComponentProps` defined below) |
+| Container   | - `children`: ReactNode<br/>- `className?: string` |
+| Tabs        | - `selected?: number`<br/>- `children: ReactNode` |
+| Panel       | - `children: ReactNode`<br/>- `title: string` |
+
 
 ### IInputProps (Used in FormInput)
 
