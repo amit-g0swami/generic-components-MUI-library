@@ -27,8 +27,8 @@
     "trailingComma": "none",
     "tabWidth": 2
   },
-  "name": "react-ui-library",
-  "author": "Amit Goswami",
+  "name": "@amit_g0swami/react-ui-library",
+  "author": "amit_g0swami",
   "module": "dist/react-ui-lib.esm.js",
   "size-limit": [
     {
