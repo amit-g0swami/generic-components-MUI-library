@@ -1,5 +1,4 @@
 import { createTheme } from '@mui/material'
-// import './style.css'
 
 const themeColors = {
   PRIMARY_COLOR: '#FF1A3D',
@@ -9,8 +8,11 @@ const themeColors = {
   SCREEN_COLOR: '#F8F8F8',
   WHITE: '#FFFFFF'
 }
+
 const themeFont = 'Lato'
+
 const POINT_TWO_FIVE = 0.25
+
 export const theme = createTheme({
   typography: {
     fontFamily: themeFont,
