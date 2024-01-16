@@ -1,0 +1,5 @@
+export * from './TableComponent'
+export * from './table-body/TableBody'
+export * from './table-header/TableHeader'
+export * from './table-footer/TableFooter'
+export * from './table-toolbar/TableToolbar'
