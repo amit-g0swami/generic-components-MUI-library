@@ -1,4 +1,4 @@
-export interface ILabelProps{
-    labelText: string
-    for: string
+export interface ILabelProps {
+  labelText: string
+  for: string
 }

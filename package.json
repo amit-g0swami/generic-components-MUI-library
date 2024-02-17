@@ -13,13 +13,18 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "start": "tsdx watch",
-    "build": "tsdx build",
+    "build": "npm run compile",
+    "compile": "tsdx build",
     "test": "tsdx test --maxWorkers=4",
     "test:watch": "tsdx test --watch",
     "coverage": "tsdx test --coverage --maxWorkers=4",
     "lint": "tsdx lint src",
     "lint-fix": "tsdx build",
-    "size": "size-limit"
+    "size": "size-limit",
+    "prettier:check": "prettier --check \"**/*.{css,js,json,jsx,ts,tsx}\"",
+    "prettier:fix": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx}\"",
+    "prettier-all": "npm run prettier:check && npm run prettier:fix",
+    "precompile": "npm run prettier-all"
   },
   "prettier": {
     "printWidth": 80,
@@ -65,6 +70,7 @@
     "@types/react-dom": "^18.0.7",
     "@types/styled-components": "^5.1.26",
     "babel-loader": "^8.2.5",
+    "prettier": "^3.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",

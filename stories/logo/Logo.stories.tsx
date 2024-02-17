@@ -15,8 +15,8 @@ const Template: ComponentStory<typeof DefaultLogo> = (args) => (
 
 export const Logo = Template.bind({})
 Logo.args = {
-    srcUrl: 'https://cdn.logo.com/hotlink-ok/logo-social.png',
-    altText: 'LogoText',
-    width: 100,
-    height: 100
+  srcUrl: 'https://cdn.logo.com/hotlink-ok/logo-social.png',
+  altText: 'LogoText',
+  width: 100,
+  height: 100
 }

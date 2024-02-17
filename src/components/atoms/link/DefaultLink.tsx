@@ -2,7 +2,6 @@ import Link from '@mui/material/Link'
 import React from 'react'
 import { ILinkProps } from './link.interface'
 
-
 export const DefaultLink = ({ ...props }: ILinkProps) => {
   return (
     <Link
@@ -15,4 +14,3 @@ export const DefaultLink = ({ ...props }: ILinkProps) => {
     </Link>
   )
 }
-

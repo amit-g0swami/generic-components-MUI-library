@@ -22,4 +22,3 @@ export const DefaultCard = ({ ...props }: ICardProps) => {
     </StyledCard>
   )
 }
-

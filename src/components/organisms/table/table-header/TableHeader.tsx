@@ -6,11 +6,7 @@ export const TableHeader: React.FC<ITableHeader> = ({
 }: ITableHeader) => {
   return (
     <thead>
-      <tr>
-        {props.column?.map((i) => (
-          <td key={i.key}>{i.title}</td>
-        ))}
-      </tr>
+      <tr>{props.column?.map((i) => <td key={i.key}>{i.title}</td>)}</tr>
     </thead>
   )
 }
